@@ -13,3 +13,12 @@ function MyPick(todo, keys) {
 
   return obj;
 }
+
+/* 
+1. 返回一个对象
+2. 遍历foreach mapped
+3. todo[key] 取值indexed
+4. 看看 key 在不在todo 里面
+  1. keyof lookup
+  2. extends 条件约束
+ */
